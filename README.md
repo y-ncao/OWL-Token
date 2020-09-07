@@ -14,10 +14,10 @@ This script is for people who love OWL matches, want to earn OWL token without t
 $ python -m pip install requests
 ```
 3. Get your OW account ID and update that in the script so YOUR ACCOUNT can earn the token. Again, there are a couple of ways to get that. One way that I would suggest is,
-  1. Go to https://overwatchleague.com/. Then login with the Blizzard account.
-  2. Then open up your Chrome console(or other browser concole) by hover your mouse any where, and right click and select "Inspect" in the menu.
-  3. Go to Network tab. Then in the filter, enter the word `appuid`.
-  4. Then refresh your page. You will see a couple of requests there. Go through each of them, in the Header section, see the "Query String Parameters" and find `appuid`, that's your OW account id. (If it somehow shows `undefined`, you probably need to login again and refresh).
+    1. Go to https://overwatchleague.com/. Then login with the Blizzard account.
+    2. Then open up your Chrome console(or other browser concole) by hover your mouse any where, and right click and select "Inspect" in the menu.
+    3. Go to Network tab. Then in the filter, enter the word `appuid`.
+    4. Then refresh your page. You will see a couple of requests there. Go through each of them, in the Header section, see the "Query String Parameters" and find `appuid`, that's your OW account id. (If it somehow shows `undefined`, you probably need to login again and refresh).
 4. Replace the OW account ID you found in step 3 in the `owl.py` script and save. Then you are all good to go.
 
 ## How to Earn Those Token
